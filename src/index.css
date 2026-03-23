@@ -110,4 +110,26 @@
   .trust-bg {
     background-color: hsl(var(--trust-bg));
   }
+  .funnel-section {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+  .funnel-dark {
+    background: hsl(var(--foreground));
+    color: hsl(var(--background));
+  }
+  .funnel-primary {
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+  }
+  .funnel-primary-dark {
+    background: hsl(var(--primary-dark));
+    color: hsl(var(--primary-foreground));
+  }
+  .funnel-accent {
+    background: hsl(var(--accent));
+  }
+  .funnel-divider {
+    @apply w-16 h-1 mx-auto rounded-full;
+    background: hsl(var(--secondary));
+  }
 }
